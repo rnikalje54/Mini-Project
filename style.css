@@ -1,0 +1,46 @@
+/* Add custom styles here */
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .invalid-feedback {
+    color: #dc3545;
+    font-size: 0.8rem;
+  }
+  
+  /* Optional: Style radio buttons */
+  .form-check-input {
+    margin-right: 5px;
+  }
+  
+  /* Optional: Adjust width of form inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+    width: 100%;
+  }
+  
+  /* Optional: Adjust size of form inputs on smaller screens */
+  @media (max-width: 576px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea,
+    select {
+      width: 100%;
+    }
+  }
+  
